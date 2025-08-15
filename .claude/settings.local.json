@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm run electron:dev:*)",
+      "Bash(rm:*)",
+      "Bash(del package-lock.json)",
+      "Bash(pnpm:*)",
+      "Bash(powershell:*)",
+      "Bash(node:*)",
+      "Bash(del:*)",
+      "Bash(echo $PATH)",
+      "Bash(npm uninstall:*)",
+      "Bash(where.exe pnpm)",
+      "Bash(dir \"C:\\Program Files\\nodejs\\pnpm*\")",
+      "Bash(\"C:\\Users\\amrtg\\AppData\\Local\\pnpm\\pnpm.exe\" --version)",
+      "Bash(move:*)",
+      "Bash(copy \"src\\routes\\about.tsx\" \"src\\routes\\settings.tsx\")",
+      "Bash(mv:*)",
+      "Bash(dir:*)",
+      "Bash(git config:*)",
+      "Bash(git rm:*)",
+      "Bash(git reset:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "C:\\Users\\amrtg\\Apps\\web development"
+    ]
+  }
+}

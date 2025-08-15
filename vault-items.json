@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "The Starry Night",
+      "artist": "Vincent van Gogh",
+      "description": "A swirling night sky over a French village, painted in 1889 during van Gogh's stay at the Saint-Paul-de-Mausole asylum."
+    },
+    {
+      "id": "2",
+      "name": "Mona Lisa",
+      "artist": "Leonardo da Vinci",
+      "description": "The enigmatic portrait of Lisa Gherardini, painted between 1503-1519, known for her mysterious smile."
+    },
+    {
+      "id": "3",
+      "name": "The Great Wave off Kanagawa",
+      "artist": "Katsushika Hokusai",
+      "description": "A famous Japanese woodblock print depicting a giant wave threatening boats near Mount Fuji, created around 1831."
+    },
+    {
+      "id": "4",
+      "name": "Girl with a Pearl Earring",
+      "artist": "Johannes Vermeer",
+      "description": "A mysterious 17th-century Dutch painting featuring a girl wearing an exotic dress and a large pearl earring."
+    },
+    {
+      "id": "5",
+      "name": "The Persistence of Memory",
+      "artist": "Salvador Dalí",
+      "description": "A surreal painting from 1931 featuring melting clocks in a dreamlike landscape, symbolizing the fluidity of time."
+    },
+    {
+      "id": "6",
+      "name": "Guernica",
+      "artist": "Pablo Picasso",
+      "description": "A powerful anti-war painting created in 1937 in response to the bombing of Guernica during the Spanish Civil War."
+    }
+  ]
+}

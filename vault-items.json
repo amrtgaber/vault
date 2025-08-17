@@ -35,6 +35,12 @@
       "name": "Guernica",
       "artist": "Pablo Picasso",
       "description": "A powerful anti-war painting created in 1937 in response to the bombing of Guernica during the Spanish Civil War."
+    },
+    {
+      "id": 7,
+      "name": "test name 2",
+      "artist": "test artist",
+      "description": "test description"
     }
   ]
 }

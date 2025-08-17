@@ -14,6 +14,27 @@ export interface ElectronAPI {
     items: VaultItem[]
     error?: string
   }>
+  addVaultItem: (itemData: {
+    name: string
+    artist: string
+    description: string
+  }) => Promise<{
+    success: boolean
+    item?: VaultItem
+    error?: string
+  }>
+  updateVaultItem: (
+    id: number,
+    itemData: {
+      name: string
+      artist: string
+      description: string
+    }
+  ) => Promise<{
+    success: boolean
+    item?: VaultItem
+    error?: string
+  }>
   getItemImage: (
     itemName: string,
     artist: string
@@ -26,7 +47,7 @@ export interface ElectronAPI {
 }
 
 export interface VaultItem {
-  id: string
+  id: number
   name: string
   artist: string
   description: string
@@ -38,6 +59,8 @@ const electronAPI: ElectronAPI = {
   writeFile: (filePath: string, content: string) =>
     ipcRenderer.invoke('write-file', filePath, content),
   getVaultItems: () => ipcRenderer.invoke('get-vault-items'),
+  addVaultItem: (itemData) => ipcRenderer.invoke('add-vault-item', itemData),
+  updateVaultItem: (id, itemData) => ipcRenderer.invoke('update-vault-item', id, itemData),
   getItemImage: (itemName: string, artist: string) =>
     ipcRenderer.invoke('get-item-image', itemName, artist),
 }
